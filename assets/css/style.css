@@ -1,0 +1,10 @@
+body {
+    background-image: url("background.jpg");
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 4em;
+}
+

@@ -49,7 +49,7 @@ function checkProgress() {
      // If score > random number to match
     else if (totalScore > randomNumberToMatch) {
         // Display 'You lose' in '.progress-report'
-        $('.progress-report').text('You lose');
+        $('.progress-report').text('Sorry, you lose!');
         // Add 1 to losses
         losses++;
         // Display total losses
