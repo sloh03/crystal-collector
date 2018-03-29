@@ -16,7 +16,7 @@ function startUp() {
     // Generate random number to match (between 19 and 120)
     randomNumberToMatch = Math.floor(Math.random() * 120) + 19;
     // Display in '#random-number'
-    $('#random-number').text(randomNumberToMatch);
+    $('#random-number').text('Match This Number: ' + randomNumberToMatch);
     // Assign random values to 4 crystals (between 1 and 12)
     function randomValue() {
         return Math.floor(Math.random() * 12) + 1;
@@ -28,7 +28,7 @@ function startUp() {
     console.log(crystalOneValue + ", " + crystalTwoValue + ", " + crystalThreeValue + ", " + crystalFourValue);
     // Reset total score to 0
     totalScore = 0;
-    $('.total-score').text('Total Score: ' + totalScore);
+    $('.total-score').text(totalScore);
     $('.total-wins').text('Wins: ' + wins);
     $('.total-losses').text('Losses: ' + losses);
 }
@@ -63,22 +63,22 @@ function checkProgress() {
 // Add value to total score
 $('.crystal-1-button').on("click", function() {
    totalScore = totalScore + crystalOneValue;
-   $('.total-score').text('Total Score: ' + totalScore);
+   $('.total-score').text(totalScore);
    checkProgress();
 });
 $('.crystal-2-button').on("click", function() {
    totalScore = totalScore + crystalTwoValue;
-   $('.total-score').text('Total Score: ' + totalScore);
+   $('.total-score').text(totalScore);
    checkProgress();
 });
 $('.crystal-3-button').on("click", function() {
    totalScore = totalScore + crystalThreeValue;
-   $('.total-score').text('Total Score: ' + totalScore);
+   $('.total-score').text(totalScore);
    checkProgress();
 });
 $('.crystal-4-button').on("click", function() {
    totalScore = totalScore + crystalFourValue;
-   $('.total-score').text('Total Score: ' + totalScore);
+   $('.total-score').text(totalScore);
    checkProgress();
 });
 

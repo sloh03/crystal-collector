@@ -1,10 +1,58 @@
 body {
-    background-image: url("background.jpg");
+    background: url('sunnycrystal3.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+    /* font-family: 'Berkshire Swash', cursive; */
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
 }
 
 h1 {
-    color: #fff;
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 4em;
+    color: #000;
+    /* font-family: 'Berkshire Swash', cursive; */
+    font-family: 'Comfortaa', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 5%;
 }
 
+.rules {
+    margin-bottom: 5%;
+}
+
+.current-score {
+    text-align: center;
+}
+
+/*
+.win-loss-status {
+    margin-top: 40%;
+} */
+
+.buttons {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.user-score {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.total-score {
+    font-size: 2em;
+}
+
+.progress-report {
+    margin-bottom: 5%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.total-wins, .total-losses {
+    font-size: 2em;
+}
