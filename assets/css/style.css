@@ -1,12 +1,29 @@
 body {
-    background: url('sunnycrystal3.png') no-repeat center center fixed; 
+    /* background: url('sunnycrystal3.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; */
+
+    /* background: url('sunnycrystal3.png') no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
     /* font-family: 'Berkshire Swash', cursive; */
+
     font-family: 'Comfortaa', cursive;
     font-size: 1em;
+}
+
+
+body {
+    background: url('sunnycrystal3.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    /* overflow: hidden; */
 }
 
 h1 {
