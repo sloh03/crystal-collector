@@ -11,6 +11,12 @@ var totalScore = 0;
 var wins = 0;
 var losses = 0;
 
+$('#mission-text').hide();
+
+$('#mission').on("click", function() {
+    $('#mission-text').slideToggle(1000);
+ });
+
 // On start or reset (startUp function)
 function startUp() {
     // Generate random number to match (between 19 and 120)

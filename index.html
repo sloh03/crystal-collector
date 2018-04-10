@@ -29,7 +29,7 @@
 
       <div class="container">
         
-        <!-- row1 -->
+        <!-- Title --> 
         <div class="row">
             <div class="col-lg-3 col-md-3"></div>
             <div class="col-lg-6 col-md-6">
@@ -40,41 +40,33 @@
             <div class="col-lg-3 col-md-3"></div>
         </div>
 
+        <!-- Mission Button -->
         <div class="rules text-center">
-            <button type="button" class="btn btn-info btn-lg">Mission</button>
+            <button type="button" class="btn btn-info btn-lg" id="mission">Mission</button>
         </div>
-        <!-- row1 -->
-        <!-- <div class="row">
+
+        <!-- Mission Text -->
+        <div class="row">
             <div class="col-lg-3 col-md-3"></div>
             <div class="col-lg-6 col-md-6">
-                <div class="well">
-                    <p>You will be given a random number at the start of the game.</p>
-                    <p>There are four crystals below. By clicking on a crystal you will add a specific amout of points to your total score.</p>
-                    <p>You win the game by matching your total score to the random number displayed, and lose if your total score goes above the random number.</p>
-                    <p>The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the value of the crystals.</p>
+                <div class="well text-center" id="mission-text">
+                    <div>
+                        <p>Click on the crystals to match the number shown.</p>
+                        <p>The value of the crystals and the number to match changes every game.</p>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3"></div>
-        </div> -->
+        </div>
 
-        <!-- row2 -->
+        <!-- Number to Match -->
         <div class="row">
-            <!-- <div class="col-lg-3 col-md-3"></div>  -->
-            <!-- <div class="col-lg-4 col-md-4"> -->
                 <div class="current-score">
                     <p><h2 id="random-number"></h2></p>
                 </div>
-            <!-- </div> -->
-            <!-- <div class="col-lg-2 col-md-2">
-                <div class="well win-loss-status">
-                    <p class="progress-report"></p>
-                    <p class="total-wins"></p>
-                    <p class="total-losses"></p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3"></div> -->
         </div>
 
+        <!-- Player Score -->
         <div class="row">
             <div class="user-score">
                 <p>Your Score:</p>
@@ -82,7 +74,7 @@
             </div>
         </div>
 
-        <!-- row4 -->
+        <!-- Crystal Buttons -->
         <div class="row">
             <div class="col-lg-3 col-md-3"></div>
             <div class="col-lg-6 col-md-6">
@@ -96,7 +88,7 @@
             <div class="col-lg-3 col-md-3"></div>
         </div>
 
-        <!-- row5 -->
+        <!-- Wins and Losses -->
         <div class="row">
             <div class="col-lg-3 col-md-3"></div>
             <div class="col-lg-6 col-md-6">
