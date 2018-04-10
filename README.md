@@ -2,9 +2,7 @@
 ## [LIVE DEMO](https://sloh03.github.io/week-4-game/)
 
 ## Gameplay
-Click on the crystals to match the given number. The value of the crystals and the number to match will change every game. When the game is won or lost, the game will automatically restart. Total wins and losses are displayed at the bottom of the screen.
-
-To view the instructions in the browser, click on the button labeled 'Mission'.
+Click on the button labeled 'Mission' to view or hide the instructions. Click on the crystals to match the given number. The value of the crystals and the number to match will change every game. When the game is won or lost, the game will automatically restart. Total wins and losses are displayed at the bottom of the screen.
 
 ![Alt text](images/Crystals.png?raw=true "GameScreen")
 
